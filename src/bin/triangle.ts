@@ -1,6 +1,6 @@
 #!/usr/bin/env -S npx tsx
 
-import { calculateArea, calculatePerimeter, isValidTriangle } from '../lib/triangle';
+import { calculateArea, calculatePerimeter, isValidTriangle } from '~/lib/triangle';
 
 const sides: [number, number, number] = [3, 4, 5];
 console.log(
