@@ -2,7 +2,6 @@
   "name": "typescript-starter",
   "version": "1.0.0",
   "description": "TypeScript starter project",
-  "type": "module",
   "private": true,
   "scripts": {
     "dev": "vitest watch",
