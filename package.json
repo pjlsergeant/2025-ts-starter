@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "check": "npm run build && npm run test && npm run lint && npm run format",
-    "prepare": "husky"
+    "prepare": "husky || true"
   },
   "keywords": [],
   "author": "",
