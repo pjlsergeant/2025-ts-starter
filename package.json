@@ -10,13 +10,14 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "check": "npm run build && npm run test && npm run lint && npm run format",
-    "prepare": "husky || true"
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
+    "@types/express": "^5.0.3",
     "@types/node": "^24.0.3",
     "@typescript-eslint/eslint-plugin": "^8.34.1",
     "@typescript-eslint/parser": "^8.34.1",
@@ -33,5 +34,7 @@
     "typescript": "^5.8.3",
     "vitest": "^3.2.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }

@@ -4,6 +4,18 @@ Modern TypeScript project setup with testing and linting + justfile with .env
 
 # Setup Checklist
 
+## Remove old modules
+
+```sh
+rm -Rf node_modules
+```
+
+and if you're brave:
+
+```sh
+rm package-lock.json
+```
+
 ## Remove old git
 
 ```sh
@@ -13,13 +25,6 @@ git add .
 git commit -m "Initial commit"
 ```
 
-## Install deps and husky
-
-```sh
-npm install
-npm run prepare
-```
-
 ### package.json
 
 - [ ] name: "typescript-starter" → your project name
@@ -27,6 +32,13 @@ npm run prepare
 - [ ] version: "1.0.0" → "0.1.0" or appropriate
 - [ ] author: Add your name/email
 - [ ] license: "ISC" → your preferred license
+
+## Install deps and husky
+
+```sh
+npm install
+npm run prepare
+```
 
 ### Later
 
